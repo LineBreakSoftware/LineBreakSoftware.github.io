@@ -1,0 +1,29 @@
+.footer-container
+{
+	overflow: hidden;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.footer-container p
+{
+	text-align: center;
+	font-size: 1rem;
+	color: rgba(255,255,255,0.4);
+}
+
+.footer-container a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
+@media screen and (max-width: 960px) {
+	.footer-container {
+		padding-bottom: 3rem;
+	}
+  .footer-container p {
+		font-size: .8rem;
+	}
+}
